@@ -17,7 +17,7 @@ export default {
     `;
       document.getElementsByTagName("head")[0].appendChild(style);
 
-      el.className = "vScale";
+      el.classList.add("vScale");
     });
   },
 };
